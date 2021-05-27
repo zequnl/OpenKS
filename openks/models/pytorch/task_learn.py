@@ -341,6 +341,7 @@ class TaskLearn_DyTorch(KGLearnModel):
         '''
 
 		model.eval()
+		device = args.device
 
 		logs = []
 
